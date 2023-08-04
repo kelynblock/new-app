@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.description {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+ol {
+  margin-left: 3%;
+  text-align: left;
+}
+
+.list {
+  color: orangered;
+}
+
+ul {
+  margin-left: 6%;
+}
+
+li {
+  text-align: justify;
+}
+
+.theme-buttons {
+  text-align: right;
+}
+.dark {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.light {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.home {
+  text-align: center;
+}
+
+.rules {
+  text-align: left;
+}
+
+.levels {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.title {
+  background-color: blue;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.card2 {
+  width: 400px;
+  height: 550px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8pm solid;
+  position: relative;
+  display: inline-flex;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-auto-rows: auto;
+  gap: 200px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: grey;
+}
+
+.card2-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card2-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -40;
+  position: absolute;
+  /* background: #1f3d4738; */
+  border-radius: 15px;
+  color: white;
+  padding: 30px;
+  display: inline-flexbox;
+  flex-direction: column;
+  justify-content: center;
+  transition: 5s;
+}
+
+.card2:hover .card2-body {
+  right: 0;
+}
+
+.card2-title {
+  display: flexbox;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 450;
+  margin-top: 10px;
+}
+
+.card2-info {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 40px 0;
+  font-weight: 600;
+}
